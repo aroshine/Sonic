@@ -66,7 +66,7 @@ img{
 
 }
 
-button#play{
+#play{
 	width:100px;
 	height:100px;
 	background:url(play.png) no-repeat;
@@ -75,7 +75,7 @@ button#play{
 	border: none;
     outline:none;
 }
-button#pause{
+#pause{
 	width:100px;
 	height:100px;
 	background:url(pause.png) no-repeat;float:left;
@@ -84,7 +84,7 @@ button#pause{
 
     outline:none;
 }
-button#prev{
+#prev{
 	width:70px;
 	height:70px;
 	background:url(prev.png) no-repeat;
@@ -94,7 +94,7 @@ button#prev{
     outline:none;
 }
 
-button#next{
+#next{
 	width:70px;
 	height:70px;
 	background:url(next.png) no-repeat;
