@@ -3,7 +3,6 @@ $(document).ready(function(){
     $('#subheader').html(data.playlistName);
 
     var i = 0;
-    console.log(i);
     var eachtrack = data.tracks.map(function (track) {
         return '<img src="' + track.artwork + '" alt="art" />' 
             + '<div id="songtitle">' + track.title +'</div>' 
@@ -59,7 +58,7 @@ $(document).ready(function(){
              + document.getElementById('songtrack').play()
              + showDuration()
              + $('#play').hide()
-             + $('#pause').show();;           
+             + $('#pause').show();           
     });
 
   });
