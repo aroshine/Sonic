@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="Recreating Spotify's Now Playing View">
+  	<meta name="author" content="Aroshine Munasinghe">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="nowplaying.js"></script>
+
+</head>
+<body>
+	<h1> PLAYING FROM PLAYLIST </h1>
+	<div id="subheader"></div>
+	<div id="eachtrack">
+		<div id="songtitle"></div>
+		<div id="artist"></div>
+		<audio id="songtrack"></audio>
+	</div>
+	<div>
+		
+		<progress id="seekbar" value="0" max="1" style="width:350px;"></progress>
+		<button id="prev">Prev</button>
+		<button id="play">Play</button>
+		<button id="pause">Pause</button>
+		<button id="next">Next</button>
+	</div>
+	 
+</body>
+</html>
