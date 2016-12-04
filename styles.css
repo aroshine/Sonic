@@ -14,16 +14,16 @@ iframe{
 
 h1{
 	color: white;
-	font-size: 24px;
+	font-size: 18px;
 	text-align: center;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 
 }
 #subheader{
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', sans-serif;
 
 }
 img{
@@ -32,6 +32,7 @@ img{
 	display: block;
 	width: 90%;
 	height: auto;
+
 }
 #eachtrack{
 	text-align: center;
@@ -41,12 +42,66 @@ img{
 #songtitle{
 	color:white;
 	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+
 }
 #artist{
 	color: gray;
 	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
 }
 #songtrack{
 	padding: 30px;
+}
+#seekbar{
+	width: 323px;
+	margin-left: 20px;
+}
+#buttons{
+	width:90%;
+	display: block;
+    margin: 0px auto;
+	overflow:auto;
+	margin-left: 45px;
+
+}
+
+button#play{
+	width:100px;
+	height:100px;
+	background:url(play.png) no-repeat;
+	float:left;
+	margin-left: 20px;
+	border: none;
+    outline:none;
+}
+button#pause{
+	width:100px;
+	height:100px;
+	background:url(pause.png) no-repeat;float:left;
+	border: none;
+	margin-left: 20px;
+
+    outline:none;
+}
+button#prev{
+	width:70px;
+	height:70px;
+	background:url(prev.png) no-repeat;
+	float:left;
+	margin-top:5px;
+	border: none;
+    outline:none;
+}
+
+button#next{
+	width:70px;
+	height:70px;
+	background:url(next.png) no-repeat;
+	float:left;
+	margin-top:5px;
+	border: none;
+    outline:none;
+   
 }
 
